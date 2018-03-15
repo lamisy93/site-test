@@ -1,0 +1,76 @@
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: fantasy
+}
+
+header{height: 80px;
+background: gray
+}
+
+figure{
+    height: 70px;
+    width: 80px;
+    background: red
+}
+
+h1{
+color: black; text-align: center;
+}
+
+main{ background: purple; 
+height: auto}
+
+section{
+    height: auto;
+    background: beige
+}
+
+section:nth-child(2){background: burlywood}
+
+article{
+height: 300px;
+background: orange;
+padding: 0 ! important;
+}
+
+article:nth-child(2){background: green}
+article:nth-child(3){background: blue}
+
+header.article, h2{
+    height: 20px;
+    text-align: center;
+    background: transparent;
+    padding-top: 5px;
+}
+
+footer.article{width: 100%;
+background: yellow;
+height: auto;
+margin-top: 60px;
+padding: 0}
+
+article.toto{border-radius: 50%;
+height: 300px;
+width: 300px;
+background: khaki
+}
+
+slide{height: 100px;
+background: black;
+color: white}
+
+h5, p{color: white}
+
+p.texte{width: 100%;
+height: 150px;
+margin-top: 30px;
+padding: 15px}
+
+.carousel-indicators{
+transform: rotate(90deg);
+position: absolute;
+top: 0;
+left: -1900px;
+
+}
